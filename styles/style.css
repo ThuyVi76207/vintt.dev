@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+boby {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.425;
+    color: #19282e;
+}
+
+#app {
+    padding: 20px;
+    position: relative;
+
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+
+    box-shadow: 0px 1px 6px #bcb5b5;
+
+    display: table;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.sidebar {
+    display: table-cell;
+    vertical-align: top;
+    width: 33.3333%;
+    background-color: #1c222f;
+    min-height: 900px;
+    color: #fff;
+
+
+}
+
+.profile {}
+
+.avatar {}
+
+.img-avatar {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.block-content {
+    margin: 0;
+    padding: 0;
+}
+
+.block-content .item {
+    padding: 14px 20px;
+    background: linear-gradient(180deg, #72ceed 0, #27bbec);
+    display: flex;
+    align-items: center;
+}
+
+.block-content .item a {
+    text-decoration: none;
+    color: white;
+}
+
+.block-content span {
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.block-content .bx {
+    font-size: 17px;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    margin-right: 10px;
+
+    padding: 3px;
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+
+}
+
+.wrapper-widgets {
+    padding: 60px 25px;
+    padding-top: 85px;
+}
+
+.wrapper-widgets .experience {
+    margin: 80px 0;
+}
+
+.personal .content {
+    list-style: none;
+
+}
+
+.title-widgets h2 {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.title-widgets::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+}
+
+.content .item-content {
+    margin: 10px 5px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+li>.twodot::after {
+    content: ':';
+    padding: 0 10px 0 30px;
+    font-size: 16px;
+}
+
+.experience .content-exp {
+    list-style: none;
+}
+
+.content-exp>li::before {
+    content: '- ';
+    font-size: 16px;
+
+}
+
+.content-exp .item-content {
+    margin: 10px 5px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.main-content {
+
+    height: 100%;
+}
+
+.intro-content {
+    margin-bottom: 27px;
+    padding: 20px 20px 0 30px;
+
+}
+
+.intro-content>.name {
+    font-size: 45px;
+    color: #29bbec;
+    font-weight: 700;
+    letter-spacing: 4px;
+    position: relative;
+    line-height: 1.1;
+}
+
+.intro-content>.name::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 4px;
+    margin-top: 7px;
+    background-color: #29bbec;
+}
+
+.intro-content>.position {
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 17px;
+}
+
+.intro-content>.description {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+.widgets-content .main-title {
+    background-color: #19282e;
+    color: #fff;
+    height: 45px;
+    /* line-height: 44px; */
+    margin-bottom: 25px;
+}
+
+.widgets-content .main-title>h2 {
+    font-weight: 400;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding-left: 31px;
+    padding-top: 10px;
+}
+
+.widgets-content .main-title>h2::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.list-info {
+    padding: 0 30px;
+}
+
+.exp-block {
+    display: flex;
+}
+
+.exp-block+.exp-block {
+    margin-top: 25px;
+}
+
+.exp-block .left {
+    flex-basis: 25%;
+}
+
+.exp-block .left .position {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.exp-block .time {
+    font-size: 15px;
+}
+
+.exp-block .right {
+    flex-basis: 75%;
+}
+
+.exp-block .company {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.exp-block .description {
+    font-size: 15px;
+}
+
+.experience ul {
+    list-style: none;
+}
+
+.description ul li {
+    padding-left: 10px;
+    margin-bottom: 6px;
+    position: relative;
+
+}
+
+.experience ul li strong {
+    padding-right: 5px;
+    font-weight: 600;
+}
+
+.description ul li::before {
+    content: '- ';
+    position: absolute;
+    left: 0;
+}
+
+.description-sub {
+    display: flex;
+    flex-direction: column;
+}
+
+.description-sub>span {
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+.description li a {
+    color: black;
+    text-decoration: none;
+}
+
+.hobbies .content li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hobbies .content {
+    padding: 5px 50px;
+}
+
+.content ul {
+    display: flex;
+    gap: 10%;
+}
+
+.hobbies .content .bx {
+    font-size: 40px !important;
+    color: #29aae2;
+}
+
+.hobbies ul li span {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.widgets-content+.widgets-content {
+    margin-top: 20px;
+}
